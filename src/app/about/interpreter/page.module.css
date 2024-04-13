@@ -1,0 +1,16 @@
+.header {
+    font-family: 'Arial', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 20px;
+    color: black;
+  }
+  
+  .paragraph {
+    font-family: system-ui;
+    font-size: 18px;
+    padding: 30px 90px;
+    line-height: 1.8;
+    color: black;
+  }
+  
