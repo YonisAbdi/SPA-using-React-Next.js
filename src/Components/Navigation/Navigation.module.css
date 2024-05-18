@@ -2,15 +2,15 @@
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-  background-color: #0070f3;
-  color: white;
+  background-color: #f0f0f0;
+  color: silver;
 }
 
 .card {
   padding: 1rem;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .card h2 {

@@ -1,10 +1,10 @@
-"use client"; // Add this if you need to use client components/hooks here
-
-import './globals.css';
-import { AuthProvider } from '../Components/AuthContext';
-import Navigation from '../Components/Navigation/Navigations';
-import ProtectedRoute from '../Components/ProtectedRoute';
+import { Inter } from "next/font/google";
 import styles from './layout.module.css';
+import "./globals.css";
+import Navigation from "@/Components/Navigation/Navigations";
+import { AuthProvider } from '@/Components/AuthContext';
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -14,13 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={inter.className}>
         <AuthProvider>
           <main className={styles.main}>
             <Navigation />
-            <ProtectedRoute>
-              {children}
-            </ProtectedRoute>
+            {children}
           </main>
         </AuthProvider>
       </body>

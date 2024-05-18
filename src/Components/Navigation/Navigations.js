@@ -2,12 +2,12 @@ import styles from './Navigation.module.css';
 import Link from 'next/link';
 
 const LINKS = [
-  { href: '/', text: 'Home', description: 'We Home' },
-  { href: '/about', text: 'About', description: 'About My Project' },
-  { href: '/contactinfo', text: 'Contact', description: 'Contact Details' },
   { href: '/booking', text: 'Booking', description: 'Book a Service' },
   { href: '/login', text: 'Login', description: 'Login to Your Account' },
   { href: '/reviews', text: 'Reviews', description: 'Read Reviews' },
+  { href: '/', text: 'Home', description: 'We Home' },
+  { href: '/about', text: 'About', description: 'About My Project' },
+  { href: '/contactinfo', text: 'Contact', description: 'Contact Details' },
 ];
 
 export default function Navigation() {

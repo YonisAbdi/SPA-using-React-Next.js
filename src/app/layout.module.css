@@ -1,9 +1,82 @@
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 1rem 6rem;
-    min-height: 100vh;
-    background-color: silver;
-  }
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.authStatus {
+  text-align: center;
+  margin: 20px;
+}
+
+.authStatus button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.links {
+  text-align: center;
+  margin: 20px;
+}
+
+.links a {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.reviews {
+  text-align: center;
+  margin: 20px;
+}
+
+.bookingInfo {
+  text-align: center;
+  margin: 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: silver;
+  color: white;
+}
+
+.card {
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.card h2 {
+  margin: 0 0 1rem;
+}
+
+.card p {
+  margin: 0;
+}
