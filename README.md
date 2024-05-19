@@ -1,4 +1,5 @@
 Tolk Direct
+
 Tolk Direct is an innovative digital platform designed to bridge communication gaps between non-Swedish speakers, public agencies, and professional interpreters. This comprehensive service aims to enhance the accessibility and efficiency of public services by facilitating easy and rapid booking of interpreters through a user-friendly online interface. Addressing the needs of a diverse society, Tolk Direct ensures that all individuals, regardless of their linguistic background, can access vital services seamlessly. The platform supports public agencies in delivering equitable services, empowers interpreters with flexible work management tools, and offers non-Swedish natives crucial linguistic assistance, fostering a more inclusive community.
 
 Features
