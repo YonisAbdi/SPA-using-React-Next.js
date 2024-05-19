@@ -1,64 +1,47 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .formGroup {
-    margin-bottom: 1rem;
-  }
-  
-  .input {
-    padding: 0.5rem;
-    font-size: 1rem;
-    width: 100%;
-  }
-  
-  .button {
-    padding: 0.75rem;
-    background-color: #0070f3;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #005bb5;
-  }
-  
-  .sessionListContainer {
-    margin-top: 2rem;
-  }
-  
-  .sessionList {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sessionItem {
-    background-color: #f4f4f4;
-    padding: 0.75rem;
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      padding: 0.5rem;
-    }
-  
-    .input {
-      font-size: 0.875rem;
-    }
-  
-    .button {
-      font-size: 0.875rem;
-    }
-  }
-  
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sessionListContainer {
+  margin-top: 20px;
+}
+
+.sessionList {
+  list-style: none;
+  padding: 0;
+}
+
+.sessionItem {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}

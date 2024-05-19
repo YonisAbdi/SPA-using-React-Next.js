@@ -9,7 +9,6 @@ export const AuthProvider = ({ children }) => {
   const [sessions, setSessions] = useState([]);
 
   const login = (username, password) => {
-    // Mock user data
     const users = [
       { username: 'customer1', password: 'password1', role: 'customer' },
       { username: 'worker1', password: 'password2', role: 'worker', name: 'John Doe' },
