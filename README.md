@@ -22,43 +22,6 @@ Running the Application
 1. Start the development server: npm run dev
 2. Open your browser and navigate to http://localhost:3000
 
-Project Structure
-SPA-using-React-Next/
-├── public/
-│   ├── favicon.ico
-│   └── ...
-├── src/
-│   ├── app/
-│   │   ├── about/
-│   │   │   └── page.js
-│   │   ├── booking/
-│   │   │   └── page.js
-│   │   ├── bookinginfo/
-│   │   │   └── page.js
-│   │   ├── contactinfo/
-│   │   │   └── page.js
-│   │   ├── login/
-│   │   │   └── page.js
-│   │   ├── reviews/
-│   │   │   └── page.js
-│   │   ├── layout.js
-│   │   ├── layout.module.css
-│   │   ├── page.js
-│   │   └── page.module.css
-│   ├── Components/
-│   │   ├── AuthContext.js
-│   │   ├── BookingInfo.js
-│   │   ├── Reviews.js
-│   │   ├── Navigation/
-│   │   │   ├── Navigations.js
-│   │   │   └── Navigation.module.css
-│   └── globals.css
-├── .gitignore
-├── next.config.js
-├── package.json
-├── README.md
-└── ...
-
 Usage
 Home Page: Displays the Tolk Direct logo and a welcoming text.
 About Page: Provides information about the product.
