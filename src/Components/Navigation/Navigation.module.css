@@ -4,6 +4,7 @@
   padding: 1rem;
   background-color: #f0f0f0;
   color: silver;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -11,6 +12,9 @@
   text-align: center;
   text-decoration: none;
   color: black;
+  flex: 1 1 calc(33% - 2rem);
+  margin: 1rem;
+  box-sizing: border-box;
 }
 
 .card h2 {
@@ -19,4 +23,17 @@
 
 .card p {
   margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
 }

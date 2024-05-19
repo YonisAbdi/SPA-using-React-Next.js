@@ -57,3 +57,20 @@
   text-align: center;
   margin: 20px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .description,
+  .authStatus,
+  .links,
+  .reviews,
+  .bookingInfo {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .authStatus button,
+  .links a {
+    padding: 8px 16px;
+  }
+}
