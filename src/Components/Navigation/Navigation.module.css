@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  color: silver;
+}
+
+.card {
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.card h2 {
+  margin: 0 0 1rem;
+}
+
+.card p {
+  margin: 0;
+}
